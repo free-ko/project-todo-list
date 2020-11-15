@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Freeko's ToDo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="js-weather">
+      <i class="fas fa-thermometer-half"></i>
+      <span class="js-weatherDetail"></span>
+      <i class="fas fa-street-view"></i>
+      <span class="js-weatherLocation"></span>
+    </div>
+    <div class="js-weather-description">
+      <span class="js-currentWeather">Clouds</span>
+      <img width:"40" height="40" src="https://openweathermap.org/img/wn/04n@2x.png">
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="js-clock clock">
+      <h1 class="clock__timestamp" id="clock__timestamp">00:00</h1>
+    </div>
+
+    <h4 class="js-greetings greetings"></h4>
+
+    <form class="js-form form">
+      <input type="text" placeholder="what is your name?" />
+    </form>
+
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
+
+    <ul class="js-toDoList">
+    </ul>
+
+    <div class="sentence">
+      <span>"Slow and steady wins the race." - Aesop -</span>
+    </div>
+  </div>
+
+  <script src="src/js/clock.js"></script>
+  <script src="src/js/gretting.js"></script>
+  <script src="src/js/todo.js"></script>
+  <script src="src/js/bg.js"></script>
+  <script src="src/js/weather.js"></script>
+  <script src="src/js/sen.js"></script>
+</body>
+
+</html>
