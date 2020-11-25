@@ -1,2 +1,6 @@
-# project-todo-list
-Study width HTML,CSS,JS
+# Todo-List
+
+### 기능
+- 날씨 API를 통해 현 위치에 맞는 날씨 표현
+- Local Storage를 통해 입력 데이터 저장
+- JS를 통해 새로고침 할 때 마다 새로운 문장 등장
